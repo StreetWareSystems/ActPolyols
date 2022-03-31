@@ -1,0 +1,50 @@
+.login-container {
+    height: 100vh;
+    background-image: linear-gradient(45deg, #3e2300, #edcd9f,#bd8331);
+  }
+  .form-text
+  {
+    color: #3e2300;
+    font-weight: bold;
+  }
+  .form-feild
+  {
+    height: 30px;
+    width: 100%;
+    border: #3e2300 1px solid;
+    border-radius: 5px;
+  }
+  .form-feild:focus
+  {
+    border: #c29b67 1px solid;
+    outline: #c29b67 1px solid;
+  }
+  .form-feild::placeholder
+  {
+    padding-left: 10px;
+    color: #c29b67;
+    font-size:80%;
+  }
+  .pswrd-show-btn
+  {
+      position: relative;
+  } 
+  .pswrd-show-btn span
+  {
+      position: absolute;
+      top: 35px;
+      right: 10px;
+  }
+  .pswrd-show-btn span i
+  {
+      color:#3e2300 ;
+  }
+  .login-btn
+  {
+    background-color: #3e2300;
+    color: white;
+  }
+  .login-btn:hover{
+    background-color: #6b583e;
+    color: white;
+  }
